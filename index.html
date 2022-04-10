@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b4e1883d31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="converter">
+        <header>Conversor de Moedas</header>
+        <form action="#">
+            <div class="valor">
+                <p>Insira o valor</p>
+                <input type="text" value="1">
+            </div>
+            <div class="lista-gerada">
+                <div class="de">
+                    <p>Converter de</p>
+                    <div class="selecione-caixa">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/br.svg" alt="">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="icone"><i class="fas fa-exchange-alt"></i></div>
+                <div class="para">
+                    <p>Para</p>
+                    <div class="selecione-caixa">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="">
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="taxa">Recebendo valores...</div>
+            <button>Converter</button>
+        </form>
+    </div>
+
+    <script src="./js/lista-paises.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
